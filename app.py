@@ -10,7 +10,7 @@ def hello():
 
 
 @app.route('/pankaj')
-def hello():
+def pankaj():
     return "I am Pankaj."
 	
 
