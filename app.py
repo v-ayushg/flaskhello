@@ -7,6 +7,11 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     return "I am Flask hello world, try /hello"
+
+
+@app.route('/pankaj')
+def hello():
+    return "I am Pankaj."
 	
 
 @app.route('/hello', methods=['GET']) 
