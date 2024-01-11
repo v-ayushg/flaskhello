@@ -6,7 +6,7 @@ app = Flask(__name__)
  
 @app.route('/')
 def hello():
-    return "Hello, World!sassdsd"
+    return "I am Flask hello world, try /hello"
 	
 
 @app.route('/hello', methods=['GET']) 
