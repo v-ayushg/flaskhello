@@ -9,6 +9,10 @@ def hello():
     return "I am Flask hello world, try /hello"
 
 
+@app.route('/django')
+def django():
+    return "I am not django"
+
 @app.route('/pankaj')
 def pankaj():
     return "I am Pankaj."
